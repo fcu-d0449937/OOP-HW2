@@ -21,8 +21,8 @@ public class KeyboardScanner {
 		
 		num3=num1*num2;
 		
-		System.out.println("Hi "+name+ ", the multiplication of "+num1+" and "+num2+" is "+num3);
-		
+		//System.out.println("Hi "+name+ ", the multiplication of "+num1+" and "+num2+" is "+num3);
+		System.out.printf("Hi %s, the multiplication of %d and %.5f is %.2e ",name,num1,num2,num3);
 		
 	}
 
