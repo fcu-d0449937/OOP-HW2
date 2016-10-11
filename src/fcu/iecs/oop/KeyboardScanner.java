@@ -1,6 +1,6 @@
 package fcu.iecs.oop;
 import java.util.Scanner;
-public class StringComparator {
+public class KeyboardScanner {
 
 	public static void main(String[] args) {
 		int num1;
