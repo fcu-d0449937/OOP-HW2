@@ -6,6 +6,7 @@ public class StringComparator {
 public static void main(String[] args) {
 		String eng1,eng2;
 		Scanner scanner = new Scanner(System.in);
+		while(eng1.compareToIgnoreCase(eng2)==0){
 		System.out.println("Enter a string 1:");
 		eng1 = scanner.next();
 		
@@ -13,7 +14,8 @@ public static void main(String[] args) {
 		eng2 = scanner.next();
 		
     if(eng1.compareToIgnoreCase(eng2)==0)
-    {System.out.println("The two strings are the same.");}
+    {System.out.println("The two strings are the same.");
+    break;}
     else if(eng1.compareToIgnoreCase(eng2)!=0)
     {System.out.println("The two strings are not the same.");}
-}}
+}}}
