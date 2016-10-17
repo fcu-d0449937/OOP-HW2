@@ -6,7 +6,8 @@ public class StringComparator {
 public static void main(String[] args) {
 		String eng1,eng2;
 		Scanner scanner = new Scanner(System.in);
-		while(eng1.compareToIgnoreCase(eng2)==0){
+		
+		while(true){
 		System.out.println("Enter a string 1:");
 		eng1 = scanner.next();
 		
